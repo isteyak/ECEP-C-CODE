@@ -1,0 +1,66 @@
+/*
+Title 		:program to print hello in x format
+Author		:Isteyak
+Organisation	:Emetxe
+Algoritham 	:pf(Enter the row and col of matrix)
+		 read the given value in any variable
+		 use for loop for itteration
+    		 for (row=1; row<=n; row++)
+    		 {
+			for (col=1; col<=n; col++)
+		 {
+            		x=row+col;
+	    		if (row==col || x==n+1)
+	    		{
+				if (row==col && x==n+1)
+			{
+				printf("hellohello");
+			}
+			else
+		    		printf("hello ");
+	    		}
+	    		else
+	    		{
+				printf(" ");
+	    		}
+		 }		
+				printf("\n");
+    		 }
+*/
+
+
+
+#include <stdio.h>
+
+
+void main()
+{
+    int row,col,n,x;
+
+    printf("enter the number");
+
+    scanf("%d", &n);
+
+
+    for (row=1; row<=n; row++)
+    {
+	for (col=1; col<=n; col++)
+	{
+            x=row+col;
+	    if (row==col || x==n+1)
+	    {
+		if (row==col && x==n+1)
+		{
+		printf("hellohello");
+		}
+		else
+		    printf("hello ");
+	    }
+	    else
+	    {
+		printf(" ");
+	    }
+	}
+	printf("\n");
+    }
+}

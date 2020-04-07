@@ -1,0 +1,24 @@
+Version 3.2 HI-TECH Software Intermediate Code
+[p mainexit ]
+"195 /opt/microchip/xc8/v1.36/include/stdio.h
+[v _printf `(i ~T0 @X0 0 ev`*Cuc ]
+"3 main.c
+[v _main `(i ~T0 @X0 1 ef ]
+"4
+{
+[e :U _main ]
+[f ]
+"5
+[v _x `i ~T0 @X0 1 a ]
+[e = _x -> 10 `i ]
+"7
+[e ( _printf , (. :s 1C _x ]
+"9
+[e ) -> 0 `i ]
+[e $UE 2  ]
+"10
+[e :UE 2 ]
+}
+[p f _printf 8388736 ]
+[a 1C 37 100 0 ]
+

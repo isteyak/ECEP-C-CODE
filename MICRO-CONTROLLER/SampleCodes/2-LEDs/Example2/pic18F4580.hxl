@@ -1,0 +1,28 @@
+### HEXMate logfile and output summary ###
+### Memory Usage ###
+ Unused memory ranges:
+  4h - 2FB5h
+  3000h - 2FFFFFh
+  300008h - 30003Fh
+  
+ pic18F4580.hex ranges:
+  0h - 3h
+  2FB6h - 2FFFh
+  300000h - 300007h
+  
+### Hex Memory Map ###
+ Legend:
+  - = Unused memory
+  F = Filled ROM
+  S = Stored serial code
+  A = Stored ASCII string
+  R = Reserved for checksum
+  C = Stored checksum result
+  T = Trailing code
+  & = Find & replace opcode
+  X = Find & delete opcode
+  1 = pic18F4580.hex
+00000000: 1111------------------------------------------------------------
+00002F80: ------------------------------------------------------1111111111
+00002FC0: 1111111111111111111111111111111111111111111111111111111111111111
+00300000: 11111111--------------------------------------------------------
